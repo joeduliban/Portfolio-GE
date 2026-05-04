@@ -1,0 +1,106 @@
+.language-selector-wrapper {
+    position: fixed;
+    top: 20px;
+    right: -155px;
+    z-index: 1002;
+    display: flex;
+    align-items: center;
+    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--white);
+    border-radius: 8px 0 0 8px;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.15);
+    height: 72px;
+    overflow: hidden;
+}
+
+.language-selector-wrapper.open {
+    right: 0;
+}
+
+.language-toggle-button {
+    background: transparent;
+    border: none;
+    border-right: 1px solid #e2e8f0;
+    height: 100%;
+    width: 45px;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.language-toggle-button:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.language-toggle-arrow {
+    font-size: 1.5em;
+    color: var(--primary);
+    transition: transform 0.4s ease;
+    animation: arrowBounce 2s ease-in-out infinite;
+}
+
+@keyframes arrowBounce {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(-5px); }
+}
+
+.language-selector-wrapper.open .language-toggle-arrow {
+    transform: rotate(180deg);
+    animation: none;
+}
+
+.language-bar {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    gap: 8px;
+    position: relative;
+}
+
+.language-bar button {
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 2px;
+    cursor: pointer;
+    width: 40px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.language-bar button svg {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.language-bar button:hover {
+    border-color: var(--secondary);
+    border-width: 3px;
+}
+
+.language-bar button.active {
+    border-color: var(--primary);
+    border-width: 3px;
+    box-shadow: 0 0 10px rgba(37, 99, 235, 0.5);
+}
+
+/* Responsive */
+@media (max-width:1467px) {
+    .language-toggle-button {
+        width: 35px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .language-selector-wrapper {
+        display: none;
+    }
+}

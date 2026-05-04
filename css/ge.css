@@ -1,0 +1,120 @@
+/* ============================================
+   ge.css — Styles spécifiques au Portfolio GE
+   ============================================ */
+
+/* Grille d'info pour la section Statuts */
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.info-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px 16px;
+    background: var(--light);
+    border-radius: 10px;
+    border-left: 4px solid var(--primary);
+    transition: all 0.3s ease;
+}
+
+.info-row:hover {
+    background: #e2eaf8;
+    transform: translateX(4px);
+}
+
+.info-label {
+    font-weight: 700;
+    color: var(--primary);
+    min-width: 160px;
+    flex-shrink: 0;
+    font-size: 0.95em;
+}
+
+.info-value {
+    color: var(--dark);
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+/* Liens externes dans les sections */
+.ext-link {
+    color: var(--white);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(255,255,255,0.6);
+    transition: all 0.25s ease;
+    word-break: break-all;
+}
+
+.ext-link:hover {
+    border-bottom-style: solid;
+    opacity: 0.85;
+}
+
+/* Bloc "À venir" pour les sections placeholder */
+.placeholder-card {
+    opacity: 0.92;
+}
+
+.coming-soon-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    gap: 16px;
+    text-align: center;
+    border: 2px dashed var(--light);
+    border-radius: 12px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #f8faff 0%, var(--white) 100%);
+}
+
+.coming-soon-icon {
+    font-size: 3em;
+    line-height: 1;
+    filter: grayscale(0.3);
+}
+
+.coming-soon-text {
+    font-size: 1.05em;
+    color: var(--gray);
+    font-style: italic;
+}
+
+.coming-soon-sub {
+    font-size: 0.9em;
+    color: var(--gray);
+}
+
+.coming-soon-sub .ext-link {
+    color: var(--primary);
+    border-bottom-color: rgba(37,99,235,0.5);
+}
+
+/* Lien dans le footer */
+.ext-link-footer {
+    color: var(--gray);
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.ext-link-footer:hover {
+    color: var(--primary);
+}
+
+/* Responsive : rétrécir les labels sur petits écrans */
+@media (max-width: 600px) {
+    .info-row {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .info-label {
+        min-width: unset;
+    }
+}
