@@ -38,7 +38,8 @@
                 <div class="profile-section">
                     <div class="profile-image" id="profileBubble">
                         <div class="profile-bubble-flipper">
-                            <span class="profile-initials">JN</span>
+                            <img class="profile-initials" src="images/profile/flyx-icon.svg" alt="FLYX Cloud">
+                            <img class="profile-photo" src="images/profile/flyx-logo.svg" alt="FLYX Cloud">
                         </div>
                     </div>
                     <div style="margin-top: 20px;">
@@ -195,12 +196,49 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
                     <span data-i18n="s2Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">📊</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
-                    <p class="coming-soon-sub">
-                        <a href="https://www.nbb.be" target="_blank" rel="noopener noreferrer" class="ext-link">www.nbb.be</a>
-                    </p>
+                <p class="section-subtitle" data-i18n="s2Subtitle"></p>
+
+                <div class="financial-dashboard">
+                    <div class="kpi-card shadow">
+                        <div class="kpi-header">
+                            <span data-i18n="labelGrossMargin"></span>
+                            <span class="trend up" data-i18n="s2TrendPositive"></span>
+                        </div>
+                        <div class="kpi-value">1.853.939 €</div>
+                    </div>
+
+                    <div class="kpi-card shadow border-highlight">
+                        <div class="kpi-header">
+                            <span data-i18n="labelNetResult"></span>
+                        </div>
+                        <div class="kpi-value">89.908 €</div>
+                        <div class="kpi-status status-profit" data-i18n="s2StatusProfit"></div>
+                    </div>
+
+                    <div class="kpi-card shadow">
+                        <div class="kpi-header">
+                            <span data-i18n="labelEquity"></span>
+                        </div>
+                        <div class="kpi-value">1.636.986 €</div>
+                    </div>
+
+                    <div class="kpi-card shadow">
+                        <div class="kpi-header">
+                            <span data-i18n="labelStability"></span>
+                        </div>
+                        <div class="kpi-value" data-i18n="s2StabilityValue"></div>
+                        <p class="kpi-subtext" data-i18n="s2StabilityDesc"></p>
+                    </div>
+                </div>
+
+                <div class="analysis-box">
+                    <h3 data-i18n="s2AnalysisTitle"></h3>
+                    <p data-i18n="s2AnalysisText"></p>
+                    
+                    <a href="https://cri.nbb.be/bc9/web/catalog?execution=e1s1" target="_blank" class="nbb-button">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        <span data-i18n="s2BtnNBB"></span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -214,9 +252,27 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
                     <span data-i18n="s3Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">🎤</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="pitch-layout">
+                    <div class="pitch-video-card shadow">
+                        <div class="project-video-container" data-youtube="-aW7KElE3SY">
+                            <div class="video-placeholder"></div>
+                        </div>
+                    </div>
+
+                    <div class="pitch-text-card shadow">
+                        <div class="pitch-quote-icon">
+                            <svg width="45" height="45" viewBox="0 0 24 24" fill="#3b82f6" opacity="0.15"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+                        </div>
+                        
+                        <h3 class="pitch-catchphrase" data-i18n="s3Catchphrase"></h3>
+                        <p class="pitch-description" data-i18n="s3Description"></p>
+                        
+                        <div class="pitch-tags">
+                            <span class="pitch-badge" data-i18n="s3Tag1"></span>
+                            <span class="pitch-badge" data-i18n="s3Tag2"></span>
+                            <span class="pitch-badge" data-i18n="s3Tag3"></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -230,9 +286,12 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
                     <span data-i18n="s4Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">🎯</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="content-card">
+                    <ul>
+                        <li><strong data-i18n="labelMission"></strong> <span data-i18n="s4Mission"></span></li>
+                        <li><strong data-i18n="labelVision"></strong> <span data-i18n="s4Vision"></span></li>
+                        <li><strong data-i18n="labelValues"></strong> <span data-i18n="s4Values"></span></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -246,9 +305,56 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
                     <span data-i18n="s5Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">🗂️</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="bmc-container">
+                    <div class="bmc-main-grid">
+                        <div class="bmc-box partners">
+                            <h3 data-i18n="labelPartners"></h3>
+                            <p data-i18n="s5Partners"></p>
+                        </div>
+
+                        <div class="bmc-column">
+                            <div class="bmc-box activities">
+                                <h3 data-i18n="labelActivities"></h3>
+                                <p data-i18n="s5Activities"></p>
+                            </div>
+                            <div class="bmc-box resources">
+                                <h3 data-i18n="labelResources"></h3>
+                                <p data-i18n="s5Resources"></p>
+                            </div>
+                        </div>
+
+                        <div class="bmc-box value-prop">
+                            <h3 data-i18n="labelValueProp"></h3>
+                            <p data-i18n="s5ValueProp"></p>
+                        </div>
+
+                        <div class="bmc-column">
+                            <div class="bmc-box relationships">
+                                <h3 data-i18n="labelRelationships"></h3>
+                                <p data-i18n="s5Relationships"></p>
+                            </div>
+                            <div class="bmc-box channels">
+                                <h3 data-i18n="labelChannels"></h3>
+                                <p data-i18n="s5Channels"></p>
+                            </div>
+                        </div>
+
+                        <div class="bmc-box segments">
+                            <h3 data-i18n="labelCustomers"></h3>
+                            <p data-i18n="s5Customers"></p>
+                        </div>
+                    </div>
+
+                    <div class="bmc-bottom-grid">
+                        <div class="bmc-box costs">
+                            <h3 data-i18n="labelCosts"></h3>
+                            <p data-i18n="s5Costs"></p>
+                        </div>
+                        <div class="bmc-box revenues">
+                            <h3 data-i18n="labelRevenues"></h3>
+                            <p data-i18n="s5Revenues"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -262,9 +368,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/><line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/><line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/><line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/><line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/></svg>
                     <span data-i18n="s6Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">💡</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="content-card">
+                    <p data-i18n="s6Content1"></p>
+                    <p data-i18n="s6Content2"></p>
                 </div>
             </div>
         </div>
@@ -278,9 +384,11 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     <span data-i18n="s7Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">⚔️</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="content-card">
+                    <ul>
+                        <li><strong data-i18n="labelDirect"></strong> <span data-i18n="s7Direct"></span></li>
+                        <li><strong data-i18n="labelIndirect"></strong> <span data-i18n="s7Indirect"></span></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -294,9 +402,8 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>
                     <span data-i18n="s8Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">🎯</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="content-card">
+                    <p data-i18n="s8Content"></p>
                 </div>
             </div>
         </div>
@@ -310,9 +417,8 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
                     <span data-i18n="s9Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">🔄</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="content-card">
+                    <p data-i18n="s9Content"></p>
                 </div>
             </div>
         </div>
@@ -326,9 +432,13 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
                     <span data-i18n="s10Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">📈</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="content-card">
+                    <p data-i18n="s10Intro"></p>
+                    <ul>
+                        <li><strong data-i18n="labelMarge"></strong> <span data-i18n="s10Marge"></span></li>
+                        <li><strong data-i18n="labelResult"></strong> <span data-i18n="s10Result"></span></li>
+                        <li><strong data-i18n="labelCapital"></strong> <span data-i18n="s10Capital"></span></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -342,9 +452,13 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
                     <span data-i18n="s11Title"></span>
                 </h3>
-                <div class="coming-soon-block">
-                    <div class="coming-soon-icon">🔍</div>
-                    <p class="coming-soon-text" data-i18n="comingSoon"></p>
+                <div class="content-card">
+                    <ul>
+                        <li><strong data-i18n="labelS"></strong> <span data-i18n="s11S"></span></li>
+                        <li><strong data-i18n="labelW"></strong> <span data-i18n="s11W"></span></li>
+                        <li><strong data-i18n="labelO"></strong> <span data-i18n="s11O"></span></li>
+                        <li><strong data-i18n="labelT"></strong> <span data-i18n="s11T"></span></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -393,6 +507,7 @@
     <script src="js/translations.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/i18n.js"></script>
+    <script src="js/projects.js"></script>
     <script src="js/language-selector.js"></script>
     <script src="js/main.js"></script>
 </body>

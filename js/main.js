@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Load with French by default
-    changeLanguage('fr');
-
-    // Scroll animations
     initScrollAnimations();
+    loadProjectVideos();
+    changeLanguage('fr');
 });
 
 function initScrollAnimations() {

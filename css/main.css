@@ -6,23 +6,23 @@
 }
 
 :root {
-    --primary: #2563eb;
-    --primary-dark: #1e40af;
-    --secondary: #7c3aed;
-    --accent: #06b6d4;
-    --dark: #0f172a;
-    --gray: #64748b;
-    --light: #f1f5f9;
+    --primary: #3A72FF;
+    --primary-dark: #1A4FCC;
+    --secondary: #9C3AFF;
+    --accent: #FF5C3A;
+    --dark: #0A0E1F;
+    --gray: #5E6D8F;
+    --light: #EDF0FF;
     --white: #ffffff;
-    --success: #10b981;
-    --warning: #f59e0b;
+    --success: #00CC88;
+    --warning: #FFB020;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--dark);
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(160deg, #0A1A3E 0%, #0D1550 50%, #0A0E2A 100%);
     min-height: 100vh;
 }
 
