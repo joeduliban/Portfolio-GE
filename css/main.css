@@ -6,16 +6,20 @@
 }
 
 :root {
-    --primary: #3A72FF;
-    --primary-dark: #1A4FCC;
-    --secondary: #9C3AFF;
+    --primary: #6EB5F9;
+    --primary-dark: #4871F7;
+    --secondary: #4871F7;
     --accent: #FF5C3A;
     --dark: #0A0E1F;
+    --dark-text: #1e293b;
     --gray: #5E6D8F;
+    --gray-mid: #475569;
+    --gray-light: #64748b;
     --light: #EDF0FF;
     --white: #ffffff;
     --success: #00CC88;
     --warning: #FFB020;
+    --border: #e2e8f0;
 }
 
 body {
@@ -40,7 +44,48 @@ body {
     margin-right: 0.5em;
 }
 
-/* Sélecteur de langue */
+/* Ombre réutilisable */
+.shadow {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Grille générique auto-fit */
+.auto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+/* Carte générique (sections ge.css) */
+.feature-card {
+    background: var(--white);
+    padding: 30px 25px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Icône générique (carré arrondi centré) */
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
+}
+
+/* Sélecteur de langue (legacy, remplacé par language-selector.css) */
 .language-selector {
     position: fixed;
     top: 20px;
