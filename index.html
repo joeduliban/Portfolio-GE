@@ -274,6 +274,7 @@
                             <span class="info-value">SRL (Société à Responsabilité Limitée)</span>
                         </div>
                     </div>
+                    <p class="mt-4" data-i18n="s1Content" style="margin-top: 20px; line-height: 1.6; color: var(--gray);"></p>
                 </div>
 
                 <div class="highlight-box" style="margin-top: 25px;">
@@ -309,66 +310,64 @@
              SECTION 2 : COMPTES ANNUELS
         ============================= -->
         <div id="comptes" class="content-section">
-            <div class="card placeholder-card">
+            <div class="card">
                 <h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="icon">
-                        <line x1="18" y1="20" x2="18" y2="10" />
-                        <line x1="12" y1="20" x2="12" y2="4" />
-                        <line x1="6" y1="20" x2="6" y2="14" />
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
                     <span data-i18n="s2Title"></span>
                 </h3>
                 <p class="section-subtitle" data-i18n="s2Subtitle"></p>
 
-                <div class="financial-dashboard">
-                    <div class="kpi-card shadow">
-                        <div class="kpi-header">
-                            <span data-i18n="labelGrossMargin"></span>
-                            <span class="trend up" data-i18n="s2TrendPositive"></span>
-                        </div>
-                        <div class="kpi-value">1.853.939 €</div>
+                <div class="info-grid" style="margin-top: 20px;">
+                    <div class="info-row">
+                        <span class="info-label" data-i18n="labelFiscalYear"></span>
+                        <span class="info-value" data-i18n="valFiscalYear"></span>
                     </div>
-
-                    <div class="kpi-card shadow border-highlight">
-                        <div class="kpi-header">
-                            <span data-i18n="labelNetResult"></span>
-                        </div>
-                        <div class="kpi-value">89.908 €</div>
-                        <div class="kpi-status status-profit" data-i18n="s2StatusProfit"></div>
+                    <div class="info-row">
+                        <span class="info-label" data-i18n="labelDepositDate"></span>
+                        <span class="info-value" data-i18n="valDepositDate"></span>
                     </div>
-
-                    <div class="kpi-card shadow">
-                        <div class="kpi-header">
-                            <span data-i18n="labelEquity"></span>
-                        </div>
-                        <div class="kpi-value">1.636.986 €</div>
-                    </div>
-
-                    <div class="kpi-card shadow">
-                        <div class="kpi-header">
-                            <span data-i18n="labelStability"></span>
-                        </div>
-                        <div class="kpi-value" data-i18n="s2StabilityValue"></div>
-                        <p class="kpi-subtext" data-i18n="s2StabilityDesc"></p>
+                    <div class="info-row">
+                        <span class="info-label" data-i18n="labelAuditor"></span>
+                        <span class="info-value" data-i18n="valAuditor"></span>
                     </div>
                 </div>
 
-                <div class="analysis-box">
-                    <h3 data-i18n="s2AnalysisTitle"></h3>
-                    <p data-i18n="s2AnalysisText"></p>
+                <div class="bnb-rubrics-card shadow-sm">
+                    <h4 data-i18n="s2OfficialLinks"></h4>
+                    <div class="rubric-table">
+                        <div class="rubric-row">
+                            <span class="rubric-label" data-i18n="labelCode9900"></span>
+                            <span class="rubric-value success" data-i18n="valCode9900"></span>
+                        </div>
+                        <div class="rubric-row">
+                            <span class="rubric-label" data-i18n="labelCode9904"></span>
+                            <span class="rubric-value success" data-i18n="valCode9904"></span>
+                        </div>
+                        <div class="rubric-row">
+                            <span class="rubric-label" data-i18n="labelCode1015"></span>
+                            <span class="rubric-value info" data-i18n="valCode1015"></span>
+                        </div>
+                        <div class="rubric-row">
+                            <span class="rubric-label" data-i18n="labelCode21"></span>
+                            <span class="rubric-value info" data-i18n="valCode21"></span>
+                        </div>
+                        <div class="rubric-row">
+                            <span class="rubric-label" data-i18n="labelCode40"></span>
+                            <span class="rubric-value info" data-i18n="valCode40"></span>
+                        </div>
+                    </div>
+                </div>
 
-                    <a href="https://cri.nbb.be/bc9/web/catalog?execution=e1s1" target="_blank" class="nbb-button">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                            <polyline points="14 2 14 8 20 8"></polyline>
-                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                            <polyline points="10 9 9 9 8 9"></polyline>
-                        </svg>
+                <p style="margin-top: 20px; line-height: 1.6; color: #64748b; font-style: italic;" data-i18n="s2ComptaText"></p>
+
+                <div style="margin-top: 30px; display: flex; gap: 15px; flex-wrap: wrap;">
+                    <a href="https://cri.nbb.be/bc9/web/catalog?execution=e1s1" target="_blank" class="nbb-button" style="margin-top: 0;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
                         <span data-i18n="s2BtnNBB"></span>
+                    </a>
+                    <a href="https://www.ejustice.just.fgov.be/tsv/tsvf.htm" target="_blank" class="nbb-button" style="margin-top: 0; background: #475569;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
+                        <span data-i18n="s1LinkRegistre"></span>
                     </a>
                 </div>
             </div>
@@ -754,7 +753,7 @@
              SECTION 10 : DIAGNOSTIC FINANCIER
         ============================= -->
         <div id="financier" class="content-section">
-            <div class="card placeholder-card">
+            <div class="card">
                 <h3>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -764,13 +763,58 @@
                     </svg>
                     <span data-i18n="s10Title"></span>
                 </h3>
-                <div class="content-card">
-                    <p data-i18n="s10Intro"></p>
-                    <ul>
-                        <li><strong data-i18n="labelMarge"></strong> <span data-i18n="s10Marge"></span></li>
-                        <li><strong data-i18n="labelResult"></strong> <span data-i18n="s10Result"></span></li>
-                        <li><strong data-i18n="labelCapital"></strong> <span data-i18n="s10Capital"></span></li>
-                    </ul>
+                
+                <div class="financial-dashboard" style="margin-top: 25px;">
+                    <!-- Colonne de Gauche : Les Ratios Visuels -->
+                    <div class="kpi-column">
+                        <div class="health-bar-container shadow-sm">
+                            <div class="health-bar-header">
+                                <span data-i18n="labelRatioAuto"></span>
+                                <strong data-i18n="valRatioAuto"></strong>
+                            </div>
+                            <div class="health-bar-bg">
+                                <div class="health-bar-fill" style="width: 63%; background: #10b981;"></div>
+                            </div>
+                        </div>
+
+                        <div class="health-bar-container shadow-sm" style="margin-top: 20px;">
+                            <div class="health-bar-header">
+                                <span data-i18n="labelRatioLiquid"></span>
+                                <strong data-i18n="valRatioLiquid"></strong>
+                            </div>
+                            <div class="health-bar-bg">
+                                <div class="health-bar-fill" style="width: 100%; background: #3b82f6;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Colonne de Droite : Les Explications Claires -->
+                    <div class="kpi-column">
+                        <div class="kpi-card shadow border-highlight" style="padding: 15px; border-color: #3b82f6;">
+                            <div class="kpi-header">
+                                <span data-i18n="labelMarginGrowth"></span>
+                            </div>
+                            <div class="kpi-value" style="font-size: 1.4em; color: #3b82f6;" data-i18n="valMarginGrowth"></div>
+                        </div>
+                        <div class="kpi-card shadow border-highlight" style="padding: 15px; margin-top: 15px; border-color: #10b981;">
+                            <div class="kpi-header">
+                                <span data-i18n="labelNetProfit"></span>
+                            </div>
+                            <div class="kpi-value" style="font-size: 1.4em; color: #10b981;" data-i18n="valNetProfit"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analysis-box" style="margin-top: 25px; background: #f0fdf4; border-left-color: #10b981; padding: 25px;">
+                    <h4 style="color: #065f46; margin-bottom: 15px; font-size: 1.2em;" data-i18n="s10AuditTitle"></h4>
+                    <p style="font-size: 1em; line-height: 1.7; color: #065f46; margin-bottom: 15px;" data-i18n="s10AuditText1"></p>
+                    <p style="font-size: 1em; line-height: 1.7; color: #065f46; margin-bottom: 15px;" data-i18n="s10AuditText2"></p>
+                    <p style="font-size: 1em; line-height: 1.7; color: #065f46; margin-bottom: 15px;" data-i18n="s10AuditText3"></p>
+                    
+                    <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(16,185,129,0.3);">
+                        <strong style="font-size: 1.1em;" data-i18n="s10Verdict"></strong>
+                        <span style="font-weight: 700; color: #059669; font-size: 1.1em;" data-i18n="s10StrategicConclusion"></span>
+                    </div>
                 </div>
             </div>
         </div>
