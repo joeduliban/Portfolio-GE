@@ -41,7 +41,7 @@ const translations = {
         s1LinkMoniteur: "Publications au Moniteur Belge (CSA & ESOP 2023)",
         s1LinkBNB: "Consultation via la Banque Nationale de Belgique (BNB)",
         s1LinkRegistre: "Registre officiel (ejustice.just.fgov.be)",
-        s1Content: "LVLP SRL a modernisé ses statuts en 2022 pour s'adapter au nouveau Code des Sociétés (CSA) et a instauré en 2023 le 'Plan ESOP 2023' (Employee Stock Option Plan). L'entrée au capital du fonds professionnel 'TheClubDeal' témoigne d'une gouvernance structurée et d'une ambition de croissance européenne.",
+        s1Content: "LVLP SRL a été fondée en 2011 par Renaud Laloire, Catherine Collot et Francine Temmerman. Elle a modernisé ses statuts en 2022 pour s'adapter au nouveau Code des Sociétés (CSA) et a instauré en 2023 le 'Plan ESOP 2023' (Employee Stock Option Plan). Sous l'impulsion de son CEO Jonathan Van Lierde et de ses administrateurs Martin Polet et Renaud Laloire, l'entrée au capital du fonds professionnel 'TheClubDeal' témoigne d'une gouvernance structurée et d'une ambition de croissance européenne.",
 
         // Titres des Sections
         s2Title: "Comptes annuels (format BNB)",
@@ -136,7 +136,7 @@ const translations = {
         s6ArchiTitle: "Middleware Universel (Actuel)",
         s6ArchiDesc: "Contrairement aux solutions fermées, FLYX a développé une couche logicielle agnostique qui se connecte à n'importe quel POS existant, synchronisant les flux sans imposer de changement matériel.",
         s6FuncTitle: "Projets R&D : IA et Agents Autonomes (Futur)",
-        s6FuncDesc: "L'entreprise investit massivement dans la R&D pour développer des assistants IA (basés sur CrewAI et LangChain). Ces projets visent à automatiser l'analyse des données de vente complexes via du 'Function Calling' SQL, transformant prochainement le middleware en un copilote décisionnel.",
+        s6FuncDesc: "L'entreprise investit massivement dans la R&D pour développer des assistants IA sophistiqués. Utilisant des architectures de réseaux de neurones GRU (Gated Recurrent Units) pour la prédiction de séries temporelles et des frameworks comme CrewAI ou LangChain, FLYX transforme le middleware en un copilote décisionnel. Cette innovation est supportée par une stack technologique de pointe : Next.js, FastAPI, et Azure CosmosDB.",
 
         // Section 7
         s7Subtitle: "Positionnement stratégique et avantage concurrentiel",
@@ -148,13 +148,23 @@ const translations = {
         s7AdvantageDesc: "La solution supprime les barrières à l'entrée en se greffant sur l'existant, tout en préparant l'arrivée de services d'IA avancés pour l'exploitation des données clients.",
 
         // Section 8 & 9
-        s8Subtitle: "Stratégie de marché (STP)",
+        s8Subtitle: "Stratégie de marché (STP - Segmentation, Targeting, Positioning)",
         s8SegTitle: "Segmentation & Ciblage",
-        s8SegDesc: "Cible le segment 'Enterprise' (Tier 1 & 2) : grandes franchises et chaînes internationales gérant des volumes de transactions massifs.",
+        s8Seg1: "Segments de Marché : Horeca (Restauration rapide, chaînes de franchises), Retail organisé, et secteur Oil & Gas (Stations-service).",
+        s8Seg2: "Ciblage Enterprise : Fokus exclusif sur les acteurs 'Tier 1 & 2' gérant des réseaux multi-sites complexes avec des volumes de transactions critiques.",
+        s8Seg3: "Géographie : Présence forte au Benelux avec une expansion active vers la France et l'Allemagne.",
+        
         s8PosTitle: "Positionnement",
-        s8PosDesc: "La solution de référence pour l'unification digitale haut de gamme, axée sur la fiabilité et la scalabilité cloud.",
+        s8Pos1: "Position de 'Middleware Universel' : FLYX se positionne comme la couche d'intelligence agnostique qui unifie le commerce physique et digital.",
+        s8Pos2: "Image de Marque : Une solution haut de gamme, fiable et 'Cloud-Native', privilégiant la stabilité opérationnelle et l'ouverture technologique par rapport au verrouillage propriétaire des géants du POS.",
+        
         s8DiffTitle: "Différenciation",
-        s8DiffDesc: "Seul middleware du marché offrant une interopérabilité totale combinée à une feuille de route axée sur l'IA analytique.",
+        s8Diff1: "Agnosticisme Matériel : Capacité unique à se greffer sur n'importe quel système de caisse (Legacy) sans remplacement de hardware, réduisant drastiquement le CAPEX client.",
+        s8Diff2: "IA Native & Prédictive : Intégration de moteurs de recommandation et de prédiction de ventes basés sur le Deep Learning (GRU), transformant une simple caisse en outil d'aide à la décision.",
+        s8Diff3: "Souveraineté des Données : Redonne au marchand le contrôle total de ses flux de données omnicanaux via un point de vérité unique.",
+
+        s8SummaryTitle: "Synthèse de la stratégie STP",
+        s8SummaryText: "La stratégie de FLYX Cloud repose sur une concentration verticale (Horeca/Retail) et une montée en gamme (Enterprise). En se positionnant comme un middleware agnostique, l'entreprise évite la confrontation directe sur le hardware et se concentre sur la valeur ajoutée logicielle et l'IA, ce qui lui confère une scalabilité supérieure aux acteurs traditionnels.",
 
         s9Subtitle: "Analyse du cycle de vie du produit",
         s9Phase1: "Introduction",
@@ -177,20 +187,32 @@ const translations = {
         s10AuditTitle: "Analyse Approfondie de l'Exercice 2024",
         s10AuditText1: "L'analyse du bilan et du compte de résultats 2024 démontre un passage réussi du stade de 'Startup en investissement' à celui de 'Scale-up rentable'. Le ratio d'autonomie financière de 63% est exceptionnel : il signifie que l'entreprise n'est endettée qu'à hauteur de 37%, garantissant une indépendance totale vis-à-vis des banques. Cette solidité provient en grande partie de la levée de fonds réalisée avec TheClubDeal.",
         s10AuditText2: "Le ratio de liquidité de 3,3 (Actif circulant / Dettes CT) indique une gestion de trésorerie ultra-sécurisée : pour chaque euro de facture à payer, Flyx possède 3,30 € d'actifs disponibles ou réalisables à court terme. C'est un indicateur de confiance majeur pour les fournisseurs et partenaires.",
-        s10AuditText3: "Enfin, la croissance de 96% de la marge brute, couplée à un bénéfice de près de 90.000 €, prouve que le modèle économique est désormais efficient. L'entreprise a réussi à absorber ses investissements R&D massifs (641k€ de production immobilisée) tout en dégageant un profit opérationnel.",
+        s10AuditText3: "Enfin, la croissance de 96% de la marge brute, couplée à un bénéfice de près de 90.000 €, prouve que le modèle économique est désormais efficient. L'entreprise a réussi à absorber ses investissements R&D massifs (641k€ de production immobilisée) tout en augmentant ses effectifs de 22,6 à 23,5 ETP (Équivalents Temps Plein), démontrant sa capacité à attirer et retenir des talents dans un secteur compétitif.",
         
         s10Verdict: "Synthèse de l'Analyste : ",
         s10StrategicConclusion: "Structure financière extrêmement robuste, risque de faillite quasi nul, forte capacité d'autofinancement pour les projets IA futurs.",
 
         // Section 11 : SWOT
-        labelS: "Forces : ",
-        s11S: "Expertise IA rare, Architecture agnostique, Solidité financière (Autonomie 63%), Plan ESOP.",
-        labelW: "Faiblesses : ",
-        s11W: "Dépendance aux interfaces API de systèmes tiers.",
-        labelO: "Opportunités : ",
-        s11O: "Lancement des services IA (fin R&D), Expansion européenne.",
-        labelT: "Menaces : ",
-        s11T: "Consolidation du marché POS.",
+        labelS: "Forces (Strengths)",
+        s11S1: "Solidité financière exceptionnelle : Autonomie financière de 63% et ratio de liquidité de 3,3.",
+        s11S2: "Expertise technique de pointe : Maîtrise des architectures IA (GRU, Function Calling) et Cloud-Native.",
+        s11S3: "Gouvernance structurée : Soutien stratégique du fonds TheClubDeal et équipe de management expérimentée.",
+        s11S4: "Engagement des talents : Plan ESOP 2023 favorisant la rétention des profils techniques clés.",
+        
+        labelW: "Faiblesses (Weaknesses)",
+        s11W1: "Dépendance technologique : Forte dépendance aux APIs de systèmes tiers (POS legacy et services de paiement).",
+        s11W2: "Coût d'acquisition client (CAC) : Stratégie 'Enterprise' impliquant des cycles de vente longs et coûteux.",
+        s11W3: "Notoriété de marque : Moindre visibilité par rapport aux géants mondiaux comme Square ou Lightspeed sur le segment PME.",
+        
+        labelO: "Opportunités (Opportunities)",
+        s11O1: "Monétisation de la R&D : Lancement commercial imminent des nouveaux services d'IA décisionnelle.",
+        s11O2: "Expansion géographique : Fort potentiel de déploiement sur les marchés européens (France, Allemagne).",
+        s11O3: "Consolidation du marché : Possibilité de devenir l'agrégateur de référence dans un marché POS fragmenté.",
+        
+        labelT: "Menaces (Threats)",
+        s11T1: "Concurrence agressive : Guerre des prix menée par les leaders mondiaux pour capter les parts de marché retail.",
+        s11T2: "Évolution réglementaire : Risques liés aux changements fréquents des législations fiscales et sur la protection des données (RGPD).",
+        s11T3: "Obsolescence rapide : Nécessité d'investir continuellement pour maintenir l'avance technologique en IA.",
     },
     en: {
         title: "GE Portfolio – LVLP SRL (FLYX Cloud)",
@@ -317,13 +339,23 @@ const translations = {
         s7AdvantageDesc: "The solution layers onto existing setups, giving merchants back full ownership while preparing for advanced AI-driven analytics.",
 
         s8Title: "Segmentation, Positioning & Differentiation",
-        s8Subtitle: "Market strategy (STP)",
+        s8Subtitle: "Market Strategy (STP - Segmentation, Targeting, Positioning)",
         s8SegTitle: "Segmentation & Targeting",
-        s8SegDesc: "Targets the 'Enterprise' segment (Tier 1 & 2): large franchises and international chains managing massive transaction volumes.",
+        s8Seg1: "Market Segments: Hospitality (Fast food, franchise chains), Organized retail, and Oil & Gas (Gas stations).",
+        s8Seg2: "Enterprise Targeting: Exclusive focus on 'Tier 1 & 2' players managing complex multi-site networks with critical transaction volumes.",
+        s8Seg3: "Geography: Strong presence in the Benelux with active expansion into France and Germany.",
+        
         s8PosTitle: "Positioning",
-        s8PosDesc: "The premium standard for digital unification, focused on reliability and cloud scalability.",
+        s8Pos1: "'Universal Middleware' Position: FLYX positions itself as the agnostic intelligence layer that unifies physical and digital commerce.",
+        s8Pos2: "Brand Image: A premium, reliable, and 'Cloud-Native' solution, prioritizing operational stability and technological openness over the proprietary lock-in of POS giants.",
+        
         s8DiffTitle: "Differentiation",
-        s8DiffDesc: "The only market middleware offering total interoperability combined with an AI-focused innovation roadmap.",
+        s8Diff1: "Hardware Agnosticism: Unique ability to layer onto any existing POS system (Legacy) without hardware replacement, drastically reducing customer CAPEX.",
+        s8Diff2: "Native & Predictive AI: Integration of recommendation and sales prediction engines based on Deep Learning (GRU), transforming a simple register into a decision-making tool.",
+        s8Diff3: "Data Sovereignty: Gives merchants full control of their omnichannel data flows through a single point of truth.",
+
+        s8SummaryTitle: "STP Strategy Synthesis",
+        s8SummaryText: "FLYX Cloud's strategy is based on vertical concentration (Hospitality/Retail) and upmarket positioning (Enterprise). By positioning itself as an agnostic middleware, the company avoids direct hardware confrontation and focuses on software value-add and AI, giving it superior scalability compared to traditional players.",
 
         s9Title: "Product/Service Lifecycle",
         s9Subtitle: "Product life cycle analysis",
@@ -347,19 +379,31 @@ const translations = {
         s10AuditTitle: "Detailed Analysis of the 2024 Fiscal Year",
         s10AuditText1: "The 2024 balance sheet analysis demonstrates a successful transition from 'Startup' to 'Profitable Scale-up'. The financial autonomy ratio of 63% is exceptional: it means the company is only 37% debt-financed, ensuring total independence from banks.",
         s10AuditText2: "The current ratio of 3.3 indicates ultra-secure cash management: for every euro of short-term debt, Flyx has €3.30 in available or realizable assets. This is a major trust indicator for partners.",
-        s10AuditText3: "Finally, the 96% gross margin growth proves the economic model's efficiency. The company successfully absorbed its massive R&D investments (€641k capitalized) while delivering operational profit.",
+        s10AuditText3: "Finally, the 96% gross margin growth proves the economic model's efficiency. The company successfully absorbed its massive R&D investments (€641k capitalized) while increasing its workforce from 22.6 to 23.5 FTE (Full-Time Equivalent), demonstrating its ability to attract and retain talent in a competitive sector.",
         
         s10Verdict: "Analyst's Summary: ",
         s10StrategicConclusion: "Extremely robust financial structure, near-zero bankruptcy risk, strong self-financing capacity for future AI projects.",
 
         s11Title: "SWOT Analysis",
-        labelS: "Strengths: ",
-        s11S: "Rare AI expertise, Agnostic architecture, Financial stability (63% Autonomy), ESOP Plan.",
-        labelW: "Weaknesses: ",
-        s11W: "API dependency on third-party systems.",
-        labelO: "Opportunities: ",
-        s11O: "Launching AI services (R&D completion), European expansion.",
-        labelT: "Threats: ",
-        s11T: "POS market consolidation."
+        labelS: "Strengths",
+        s11S1: "Exceptional financial stability: 63% financial autonomy and a 3.3 liquidity ratio.",
+        s11S2: "Cutting-edge technical expertise: Mastery of AI (GRU, Function Calling) and Cloud-Native architectures.",
+        s11S3: "Structured governance: Strategic backing from TheClubDeal fund and an experienced management team.",
+        s11S4: "Talent engagement: 2023 ESOP Plan promoting retention of key technical profiles.",
+        
+        labelW: "Weaknesses",
+        s11W1: "Technological dependency: High reliance on third-party APIs (legacy POS and payment services).",
+        s11W2: "Customer Acquisition Cost (CAC): 'Enterprise' strategy involving long and expensive sales cycles.",
+        s11W3: "Brand awareness: Lower visibility compared to global giants like Square or Lightspeed in the SME segment.",
+        
+        labelO: "Opportunities",
+        s11O1: "R&D Monetization: Imminent commercial launch of new predictive AI services.",
+        s11O2: "Geographical expansion: High deployment potential in European markets (France, Germany).",
+        s11O3: "Market consolidation: Opportunity to become the leading aggregator in a fragmented POS market.",
+        
+        labelT: "Threats",
+        s11T1: "Aggressive competition: Price wars led by global leaders to capture retail market share.",
+        s11T2: "Regulatory changes: Risks related to frequent updates in tax laws and data protection (GDPR).",
+        s11T3: "Rapid obsolescence: Need for continuous investment to maintain the technological edge in AI.",
     }
 };

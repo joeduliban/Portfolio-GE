@@ -683,7 +683,11 @@
                             </svg>
                         </div>
                         <h3 data-i18n="s8SegTitle"></h3>
-                        <p data-i18n="s8SegDesc"></p>
+                        <ul class="spd-list">
+                            <li data-i18n="s8Seg1"></li>
+                            <li data-i18n="s8Seg2"></li>
+                            <li data-i18n="s8Seg3"></li>
+                        </ul>
                     </div>
 
                     <div class="spd-card shadow">
@@ -695,7 +699,10 @@
                             </svg>
                         </div>
                         <h3 data-i18n="s8PosTitle"></h3>
-                        <p data-i18n="s8PosDesc"></p>
+                        <ul class="spd-list">
+                            <li data-i18n="s8Pos1"></li>
+                            <li data-i18n="s8Pos2"></li>
+                        </ul>
                     </div>
 
                     <div class="spd-card shadow highlight-diff">
@@ -707,8 +714,17 @@
                             </svg>
                         </div>
                         <h3 data-i18n="s8DiffTitle"></h3>
-                        <p data-i18n="s8DiffDesc"></p>
+                        <ul class="spd-list">
+                            <li data-i18n="s8Diff1"></li>
+                            <li data-i18n="s8Diff2"></li>
+                            <li data-i18n="s8Diff3"></li>
+                        </ul>
                     </div>
+                </div>
+
+                <div class="analysis-box" style="margin-top: 30px; background: #eff6ff; border-left-color: #3b82f6; padding: 25px;">
+                    <h4 style="color: #1e40af; margin-bottom: 10px; font-size: 1.1em;" data-i18n="s8SummaryTitle"></h4>
+                    <p style="color: #1e40af; line-height: 1.6; font-size: 0.95em;" data-i18n="s8SummaryText"></p>
                 </div>
             </div>
         </div>
@@ -834,13 +850,52 @@
                     </svg>
                     <span data-i18n="s11Title"></span>
                 </h3>
-                <div class="content-card">
-                    <ul>
-                        <li><strong data-i18n="labelS"></strong> <span data-i18n="s11S"></span></li>
-                        <li><strong data-i18n="labelW"></strong> <span data-i18n="s11W"></span></li>
-                        <li><strong data-i18n="labelO"></strong> <span data-i18n="s11O"></span></li>
-                        <li><strong data-i18n="labelT"></strong> <span data-i18n="s11T"></span></li>
-                    </ul>
+                <div class="swot-grid">
+                    <div class="swot-item swot-s">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                            <span data-i18n="labelS"></span>
+                        </h4>
+                        <ul class="swot-list">
+                            <li data-i18n="s11S1"></li>
+                            <li data-i18n="s11S2"></li>
+                            <li data-i18n="s11S3"></li>
+                            <li data-i18n="s11S4"></li>
+                        </ul>
+                    </div>
+                    <div class="swot-item swot-w">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                            <span data-i18n="labelW"></span>
+                        </h4>
+                        <ul class="swot-list">
+                            <li data-i18n="s11W1"></li>
+                            <li data-i18n="s11W2"></li>
+                            <li data-i18n="s11W3"></li>
+                        </ul>
+                    </div>
+                    <div class="swot-item swot-o">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><polyline points="23 6 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+                            <span data-i18n="labelO"></span>
+                        </h4>
+                        <ul class="swot-list">
+                            <li data-i18n="s11O1"></li>
+                            <li data-i18n="s11O2"></li>
+                            <li data-i18n="s11O3"></li>
+                        </ul>
+                    </div>
+                    <div class="swot-item swot-t">
+                        <h4>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M21 4H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"></path><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                            <span data-i18n="labelT"></span>
+                        </h4>
+                        <ul class="swot-list">
+                            <li data-i18n="s11T1"></li>
+                            <li data-i18n="s11T2"></li>
+                            <li data-i18n="s11T3"></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

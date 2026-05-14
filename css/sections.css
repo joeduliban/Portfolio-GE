@@ -280,3 +280,79 @@ footer .contact-item .icon {
 footer .contact-item::before {
     content: none;
 }
+
+/* SWOT Grid */
+.swot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.swot-item {
+    padding: 25px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-left: 6px solid;
+}
+
+.swot-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.swot-item h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+}
+
+.swot-item p {
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.swot-s { background: #f1fcf1; border-color: #4caf50; }
+.swot-s h4 { color: #2e7d32; }
+
+.swot-w { background: #fffaf0; border-color: #ff9800; }
+.swot-w h4 { color: #ef6c00; }
+
+.swot-o { background: #f0f7ff; border-color: #2196f3; }
+.swot-o h4 { color: #1565c0; }
+
+.swot-t { background: #fff5f5; border-color: #f44336; }
+.swot-t h4 { color: #c62828; }
+
+/* Custom Lists for SWOT and SPD */
+.swot-list, .spd-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.swot-list li, .spd-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.swot-list li::before, .spd-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.swot-s .swot-list li::before { color: #2e7d32; }
+.swot-w .swot-list li::before { color: #ef6c00; }
+.swot-o .swot-list li::before { color: #1565c0; }
+.swot-t .swot-list li::before { color: #c62828; }
