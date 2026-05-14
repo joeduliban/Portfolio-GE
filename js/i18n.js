@@ -11,9 +11,16 @@ function changeLanguage(lang) {
         const key = element.getAttribute('data-i18n');
         const translation = getNestedTranslation(translations[lang], key);
         if (translation !== undefined && translation !== null) {
-            element.textContent = translation;
+            element.innerHTML = formatMarkdown(translation);
         }
     });
+}
+
+function formatMarkdown(text) {
+    if (typeof text !== 'string') return text;
+    return text
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>');
 }
 
 function getNestedTranslation(obj, key) {
