@@ -41,7 +41,7 @@ const translations = {
         s1LinkMoniteur: "Publications au Moniteur Belge (CSA & ESOP 2023)",
         s1LinkBNB: "Consultation via la Banque Nationale de Belgique (BNB)",
         s1LinkRegistre: "Registre officiel (ejustice.just.fgov.be)",
-        s1Content: "LVLP SRL a été fondée en 2011 par Renaud Laloire, Catherine Collot et Francine Temmerman. Elle a modernisé ses statuts en 2022 pour s'adapter au nouveau Code des Sociétés (CSA) et a instauré en 2023 le 'Plan ESOP 2023' (Employee Stock Option Plan). Sous l'impulsion de son CEO Jonathan Van Lierde et de ses administrateurs Martin Polet et Renaud Laloire, l'entrée au capital du fonds professionnel 'TheClubDeal' témoigne d'une gouvernance structurée et d'une ambition de croissance européenne.",
+        s1Content: "LVLP SRL a été fondée en 2011 par Renaud Laloire, Catherine Collot et Francine Temmerman. Elle a choisi la forme de **SRL** pour les avantages enseignés en cours : protection du patrimoine privé, fiscalité optimisée et capacité à lever des fonds. En 2022, l'entrée du fonds **TheClubDeal** a porté le capital à plus de 2M€. En 2023, l'instauration du **Plan ESOP** (Employee Stock Option Plan) a marqué une innovation managériale majeure pour attirer et retenir les meilleurs talents IT dans un marché concurrentiel.",
 
         // Titres des Sections
         s2Title: "Comptes annuels (format BNB)",
@@ -134,7 +134,7 @@ const translations = {
         s6Subtitle: "Une architecture API-First et un pipeline de R&D ambitieux",
         s6Intro: "L'innovation de FLYX Cloud repose sur une solide base technologique couplée à un pipeline de recherche actif. Son positionnement innovant s'articule autour de :",
         s6ArchiTitle: "Middleware Universel (Actuel)",
-        s6ArchiDesc: "Contrairement aux solutions fermées, FLYX a développé une couche logicielle agnostique qui se connecte à n'importe quel POS existant, synchronisant les flux sans imposer de changement matériel.",
+        s6ArchiDesc: "Au-delà du discours, l'innovation est prouvée comptablement. Au bilan 2024, la ligne **'Production immobilisée' (Code 8029)** affiche **641.287 €**, témoignant d'un investissement massif et concret dans le développement de ses propres moteurs d'IA.",
         s6FuncTitle: "Projets R&D : IA et Agents Autonomes (Futur)",
         s6FuncDesc: "L'entreprise investit massivement dans la R&D pour développer des assistants IA sophistiqués. Utilisant des architectures de réseaux de neurones GRU (Gated Recurrent Units) pour la prédiction de séries temporelles et des frameworks comme CrewAI ou LangChain, FLYX transforme le middleware en un copilote décisionnel. Cette innovation est supportée par une stack technologique de pointe : Next.js, FastAPI, et Azure CosmosDB.",
 
@@ -184,10 +184,20 @@ const translations = {
         labelRatioLiquid: "Liquidité Générale (Sécurité)",
         valRatioLiquid: "3,3 (Disponibilité)",
         
-        s10AuditTitle: "Analyse Approfondie de l'Exercice 2024",
-        s10AuditText1: "L'analyse du bilan et du compte de résultats 2024 démontre un passage réussi du stade de 'Startup en investissement' à celui de 'Scale-up rentable'. Le ratio d'autonomie financière de 63% est exceptionnel : il signifie que l'entreprise n'est endettée qu'à hauteur de 37%, garantissant une indépendance totale vis-à-vis des banques. Cette solidité provient en grande partie de la levée de fonds réalisée avec TheClubDeal.",
-        s10AuditText2: "Le ratio de liquidité de 3,3 (Actif circulant / Dettes CT) indique une gestion de trésorerie ultra-sécurisée : pour chaque euro de facture à payer, Flyx possède 3,30 € d'actifs disponibles ou réalisables à court terme. C'est un indicateur de confiance majeur pour les fournisseurs et partenaires.",
-        s10AuditText3: "Enfin, la croissance de 96% de la marge brute, couplée à un bénéfice de près de 90.000 €, prouve que le modèle économique est désormais efficient. L'entreprise a réussi à absorber ses investissements R&D massifs (641k€ de production immobilisée) tout en augmentant ses effectifs de 22,6 à 23,5 ETP (Équivalents Temps Plein), démontrant sa capacité à attirer et retenir des talents dans un secteur compétitif.",
+        // Nouveaux indicateurs PPT
+        labelCashFlow: "Cash Flow (Surplus monétaire)",
+        valCashFlow: "311.050 €",
+        labelFR: "Fonds de Roulement (FR)",
+        valFR: "850.838 €",
+        labelBFR: "Besoin en FR (BFR)",
+        valBFR: "512.978 €",
+        labelPTN: "Trésorerie Nette (PTN)",
+        valPTN: "337.860 €",
+        
+        s10AuditTitle: "Analyse Approfondie : Le 'Turnaround' de 2024",
+        s10AuditText1: "L'élément le plus frappant est le **redressement spectaculaire** de la rentabilité. En 2023, l'entreprise affichait une perte de **511.792 €** liée à ses investissements massifs. En 2024, elle dégage un bénéfice net de **89.908 €**, validant le passage du modèle de R&D à une phase de scale-up rentable.",
+        s10AuditText2: "Le ratio d'autonomie financière de **63%** est d'autant plus remarquable qu'il a été renforcé malgré la croissance, assurant une pérennité totale sans dépendance bancaire. Le **Fonds de Roulement (850k€)** et la **Trésorerie Nette (337k€)** forment un coussin de sécurité idéal pour les projets futurs.",
+        s10AuditText3: "Enfin, FLYX respecte rigoureusement le **principe de prudence** du cours : les investissements R&D sont amortis sur une durée courte, et les provisions pour risques sont régulièrement actualisées, garantissant une image fidèle du patrimoine technologique.",
         
         s10Verdict: "Synthèse de l'Analyste : ",
         s10StrategicConclusion: "Structure financière extrêmement robuste, risque de faillite quasi nul, forte capacité d'autofinancement pour les projets IA futurs.",
@@ -252,7 +262,7 @@ const translations = {
         s1LinkMoniteur: "Publications in the Belgian Official Gazette (2023 update)",
         s1LinkBNB: "Consultation via the National Bank of Belgium (BNB)",
         s1LinkRegistre: "Official Register (ejustice.just.fgov.be)",
-        s1Content: "LVLP SRL updated its statutes in 2022 to the new Belgian CSA code and implemented the 'Plan ESOP 2023'. The investment from 'TheClubDeal' fund highlights a professional governance and international growth ambition.",
+        s1Content: "LVLP SRL was founded in 2011 by Renaud Laloire, Catherine Collot, and Francine Temmerman. It chose the **SRL** legal form for the advantages taught in the course: private asset protection, optimized taxation, and the ability to raise funds. In 2022, the entry of **TheClubDeal** fund brought the capital to over €2M. In 2023, the implementation of the **ESOP Plan** (Employee Stock Option Plan) marked a major managerial innovation to attract and retain top IT talent in a competitive market.",
 
         // Section 2 : Annual Accounts (Focus Proof/Legal - DETAILED)
         s2Title: "Annual Accounts (BNB format)",
@@ -376,10 +386,20 @@ const translations = {
         labelRatioLiquid: "Current Ratio (Liquidity)",
         valRatioLiquid: "3.3 (Excellent)",
         
-        s10AuditTitle: "Detailed Analysis of the 2024 Fiscal Year",
-        s10AuditText1: "The 2024 balance sheet analysis demonstrates a successful transition from 'Startup' to 'Profitable Scale-up'. The financial autonomy ratio of 63% is exceptional: it means the company is only 37% debt-financed, ensuring total independence from banks.",
-        s10AuditText2: "The current ratio of 3.3 indicates ultra-secure cash management: for every euro of short-term debt, Flyx has €3.30 in available or realizable assets. This is a major trust indicator for partners.",
-        s10AuditText3: "Finally, the 96% gross margin growth proves the economic model's efficiency. The company successfully absorbed its massive R&D investments (€641k capitalized) while increasing its workforce from 22.6 to 23.5 FTE (Full-Time Equivalent), demonstrating its ability to attract and retain talent in a competitive sector.",
+        // New PPT indicators
+        labelCashFlow: "Cash Flow (Monetary Surplus)",
+        valCashFlow: "€311,050",
+        labelFR: "Working Capital (FR)",
+        valFR: "€850,838",
+        labelBFR: "Working Capital Req. (BFR)",
+        valBFR: "€512,978",
+        labelPTN: "Net Cash Position (PTN)",
+        valPTN: "€337,860",
+        
+        s10AuditTitle: "In-Depth Analysis: The 2024 'Turnaround'",
+        s10AuditText1: "The most striking element is the **spectacular turnaround** in profitability. In 2023, the company reported a loss of **€511,792** due to its massive investments. In 2024, it posted a net profit of **€89,908**, validating the transition from a R&D model to a profitable scale-up phase.",
+        s10AuditText2: "The financial autonomy ratio of **63%** is even more remarkable as it was reinforced despite growth, ensuring total sustainability without bank dependency. The **Working Capital (€850k)** and **Net Cash (€337k)** provide an ideal safety cushion for future projects.",
+        s10AuditText3: "Finally, FLYX strictly follows the **prudence principle** taught in the course: R&D investments are amortized over a short period, and risk provisions are regularly updated, ensuring a true and fair view of the technological assets.",
         
         s10Verdict: "Analyst's Summary: ",
         s10StrategicConclusion: "Extremely robust financial structure, near-zero bankruptcy risk, strong self-financing capacity for future AI projects.",
