@@ -91,18 +91,18 @@ const translations = {
         // Section 3
         s3Subtitle: "Présentation vidéo et concept clé de la solution",
         s3Catchphrase: "Le **'cerveau numérique'** de l'hospitality et du retail omnicanal.",
-        s3Description: "FLYX Cloud fournit un **middleware intelligent** qui unifie les flux de vente (Bornes, Web, Mobile) et les connecte aux systèmes de caisse (**POS**) traditionnels. Notre architecture permet aux grandes enseignes de moderniser leur expérience client **sans remplacer leur hardware**, tout en préparant l'intégration de services analytiques de nouvelle génération.",
+        s3Description: "FLYX Cloud fournit un **middleware intelligent** qui unifie les flux de vente (Bornes, Web, Mobile) et les connecte aux systèmes de caisse (**POS**) traditionnels. L'architecture de la plateforme permet aux grandes enseignes de moderniser leur expérience client **sans remplacer leur hardware**, tout en préparant l'intégration de services analytiques de nouvelle génération.",
         s3Tag1: "Middleware Agnostique",
         s3Tag2: "Intégration Omnicanale",
         s3Tag3: "Architecture Cloud",
         
         // Section 4
         s4Subtitle: "L'identité stratégique d'un leader européen de l'unification digitale",
-        s4MissionTitle: "Notre Mission",
+        s4MissionTitle: "La Mission",
         s4MissionDesc: "Simplifier la complexité de l'omnicanal en centralisant tous les flux de commandes au sein d'un middleware unique, permettant aux commerçants de reprendre le contrôle sur leurs données.",
-        s4VisionTitle: "Notre Vision",
+        s4VisionTitle: "La Vision",
         s4VisionDesc: "Devenir l'infrastructure logicielle standard du retail et de l'hospitality en Europe d'ici 2028, en intégrant progressivement l'IA au cœur des processus décisionnels.",
-        s4ValuesTitle: "Nos Valeurs",
+        s4ValuesTitle: "Les Valeurs",
         s4Val1Title: "Innovation Technologique", 
         s4Val1Desc: "Investissement continu dans la R&D pour anticiper les besoins futurs du marché (Agents IA).",
         s4Val2Title: "Agnosticisme",
@@ -131,20 +131,20 @@ const translations = {
         s5Revenues: "Abonnements SaaS récurrents (MRR), Frais d'implémentation initiaux (One-off), Frais de maintenance évolutive, Consulting technologique sur-mesure.",
 
         // Section 6
-        s6Subtitle: "Une architecture API-First et un pipeline de R&D ambitieux",
-        s6Intro: "L'innovation de FLYX Cloud repose sur une solide base technologique couplée à un pipeline de recherche actif. Son positionnement innovant s'articule autour de :",
-        s6ArchiTitle: "Middleware Universel (Actuel)",
-        s6ArchiDesc: "Au-delà du discours, l'innovation est prouvée comptablement. Au bilan 2024, la ligne **'Production immobilisée' (Code 8029)** affiche **641.287 €**, témoignant d'un investissement massif et concret dans le développement de ses propres moteurs d'IA.",
-        s6FuncTitle: "Projets R&D : IA et Agents Autonomes (Futur)",
-        s6FuncDesc: "L'entreprise investit massivement dans la R&D pour développer des assistants IA sophistiqués. Utilisant des architectures de réseaux de neurones GRU (Gated Recurrent Units) pour la prédiction de séries temporelles et des frameworks comme CrewAI ou LangChain, FLYX transforme le middleware en un copilote décisionnel. Cette innovation est supportée par une stack technologique de pointe : Next.js, FastAPI, et Azure CosmosDB.",
+        s6Subtitle: "L'Intelligence Artificielle au service de la performance commerciale",
+        s6Intro: "FLYX Cloud intègre une intelligence décisionnelle qui transforme radicalement l'interaction client sur le point de vente :",
+        s6ArchiTitle: "Intelligence Comportementale (Actuel)",
+        s6ArchiDesc: "L'entreprise déploie des technologies de **modélisation prédictive** capables d'analyser les parcours d'achat pour anticiper les intentions des clients. En exploitant les corrélations entre profils, la solution génère des recommandations ultra-personnalisées qui maximisent la conversion en temps réel.",
+        s6FuncTitle: "Innovation & R&D : Autonomie & Découverte",
+        s6FuncDesc: "L'innovation se poursuit par l'optimisation de la **découverte de produits**, permettant d'équilibrer parfaitement la sécurité des ventes habituelles et l'exploration dynamique du catalogue. En parallèle, la R&D sur les **agents autonomes** prépare une automatisation complète de l'analyse stratégique des données.",
 
         // Section 7
         s7Subtitle: "Positionnement stratégique et avantage concurrentiel",
         s7DirectTitle: "Concurrents Directs (SaaS Loyalty/OMS)",
-        s7DirectDesc: "Des acteurs comme Deliverect ou Vita Mojo. FLYX se différencie par son agnosticisme matériel total, là où d'autres forcent souvent l'utilisation d'écosystèmes spécifiques.",
+        s7DirectDesc: "Des acteurs comme Deliverect ou Vita Mojo. FLYX se différencie par son agnosticisme matériel total, là où d'autres solutions forcent souvent l'utilisation d'écosystèmes spécifiques.",
         s7IndirectTitle: "Concurrents Indirects (Géants du POS)",
         s7IndirectDesc: "Square, Lightspeed ou Oracle Micros. Ces géants privilégient le 'Vendor Lock-in', alors que FLYX prône l'ouverture et l'interopérabilité (Océan Bleu).",
-        s7AdvantageTitle: "L'Avantage FLYX : Interopérabilité & Futur Analytique",
+        s7AdvantageTitle: "L'Avantage FLYX : Interoperabilité & Futur Analytique",
         s7AdvantageDesc: "La solution supprime les barrières à l'entrée en se greffant sur l'existant, tout en préparant l'arrivée de services d'IA avancés pour l'exploitation des données clients.",
 
         // Section 8 & 9
@@ -205,7 +205,7 @@ const translations = {
         // Section 11 : SWOT
         labelS: "Forces (Strengths)",
         s11S1: "**Solidité financière exceptionnelle** : Autonomie financière de 63% et ratio de liquidité de 3,3.",
-        s11S2: "**Expertise technique de pointe** : Maîtrise des architectures IA (GRU, Function Calling) et Cloud-Native.",
+        s11S2: "**Intelligence Comportementale** : Moteur de recommandation prédictif capable de maximiser le panier moyen en temps réel.",
         s11S3: "**Gouvernance structurée** : Soutien stratégique du fonds TheClubDeal et équipe de management expérimentée.",
         s11S4: "**Engagement des talents** : Plan ESOP 2023 favorisant la rétention des profils techniques clés.",
         
@@ -215,7 +215,7 @@ const translations = {
         s11W3: "**Notoriété de marque** : Moindre visibilité par rapport aux géants mondiaux comme Square ou Lightspeed sur le segment PME.",
         
         labelO: "Opportunités (Opportunities)",
-        s11O1: "**Monétisation de la R&D** : Lancement commercial imminent des nouveaux services d'IA décisionnelle.",
+        s11O1: "**Monétisation de l'IA** : Lancement commercial des services d'automatisation de l'analyse stratégique des données.",
         s11O2: "**Expansion géographique** : Fort potentiel de déploiement sur les marchés européens (France, Allemagne).",
         s11O3: "**Consolidation du marché** : Possibilité de devenir l'agrégateur de référence dans un marché POS fragmenté.",
         
@@ -291,18 +291,18 @@ const translations = {
         s3Title: "Presentation Pitch",
         s3Subtitle: "Video presentation and core concept of the solution",
         s3Catchphrase: "The **'digital brain'** of modern hospitality and retail.",
-        s3Description: "FLYX Cloud provides an **intelligent middleware** that unifies all sales flows (Kiosks, Web, Mobile) and connects them to existing **POS** systems. Our architecture allows major brands to modernize their customer experience **without hardware replacement**.",
+        s3Description: "FLYX Cloud provides an **intelligent middleware** that unifies all sales flows (Kiosks, Web, Mobile) and connects them to existing **POS** systems. The platform's architecture allows major brands to modernize their customer experience **without hardware replacement**, while preparing for the integration of next-generation analytical services.",
         s3Tag1: "Hardware-Agnostic",
         s3Tag2: "Omnichannel Integration",
         s3Tag3: "Cloud Architecture",
         
         s4Title: "Mission, Vision and Values",
         s4Subtitle: "Strategic identity of a European leader in digital unification",
-        s4MissionTitle: "Our Mission",
+        s4MissionTitle: "The Mission",
         s4MissionDesc: "Simplifying omnichannel complexity by centralizing all order flows within a single middleware, allowing merchants to regain control over their data.",
-        s4VisionTitle: "Our Vision",
+        s4VisionTitle: "The Vision",
         s4VisionDesc: "Becoming the standard infrastructure for digital integration in retail and hospitality across Europe by 2028, progressively embedding AI at the core.",
-        s4ValuesTitle: "Our Values",
+        s4ValuesTitle: "The Values",
         s4Val1Title: "Tech Innovation",
         s4Val1Desc: "Continuous R&D investment to anticipate future market needs (AI Agents).",
         s4Val2Title: "Agnosticism",
@@ -330,13 +330,13 @@ const translations = {
         labelCosts: "Cost Structure",
         s5Costs: "Personnel costs (>€1.5M/year), Cloud hosting & Cybersecurity, B2B Marketing.",
 
-        s6Title: "Innovation Positioning",
-        s6Subtitle: "An API-First architecture and an ambitious R&D pipeline",
-        s6Intro: "FLYX Cloud's innovation is built on a strong tech foundation and an active research pipeline. It focuses on:",
-        s6ArchiTitle: "Universal Middleware (Current)",
-        s6ArchiDesc: "Unlike closed solutions, FLYX developed an agnostic software layer connecting to any existing POS, synchronizing flows in real-time.",
-        s6FuncTitle: "R&D Projects: AI & Autonomous Agents (Future)",
-        s6FuncDesc: "The company is heavily investing in R&D for AI assistants (using CrewAI and LangChain). These projects aim to automate complex data analysis via SQL Function Calling.",
+        // Section 6
+        s6Subtitle: "Artificial Intelligence Driving Commercial Performance",
+        s6Intro: "FLYX Cloud embeds decision-making intelligence that radically transforms customer interaction at the point of sale:",
+        s6ArchiTitle: "Behavioral Intelligence (Current)",
+        s6ArchiDesc: "The company deploys **predictive modeling** technologies capable of analyzing purchase journeys to anticipate customer intent. By leveraging cross-profile correlations, the solution generates highly personalized recommendations that maximize real-time conversion.",
+        s6FuncTitle: "Innovation & R&D: Autonomy & Discovery",
+        s6FuncDesc: "Innovation continues through the optimization of **product discovery**, perfectly balancing sales security with dynamic catalog exploration. Simultaneously, R&D on **autonomous agents** prepares for full automation of strategic data analysis.",
 
         s7Title: "Competitive Analysis",
         s7Subtitle: "Strategic positioning and competitive advantage",
@@ -395,8 +395,8 @@ const translations = {
         labelPTN: "Net Cash Position (PTN)",
         valPTN: "€337,860",
         
-        s10AuditTitle: "In-Depth Analysis: The 2024 'Turnaround'",
-        s10AuditText1: "The most striking element is the **spectacular turnaround** in profitability. In 2023, the company reported a loss of **€511,792** due to its massive investments. In 2024, it posted a net profit of **€89,908**, validating the transition from a R&D model to a profitable scale-up phase.",
+        s10AuditTitle: "In-Depth Analysis: The 2024 **'Turnaround'**",
+        s10AuditText1: "The most striking element is the **spectacular turnaround** in profitability. In 2023, the company reported a loss of **€511,792** due to massive investments. In 2024, it posted a net profit of **€89,908**, validating the transition from a R&D model to a **profitable scale-up phase**.",
         s10AuditText2: "The financial autonomy ratio of **63%** is even more remarkable as it was reinforced despite growth, ensuring total sustainability without bank dependency. The **Working Capital (€850k)** and **Net Cash (€337k)** provide an ideal safety cushion for future projects.",
         s10AuditText3: "Finally, FLYX strictly follows the **prudence principle** taught in the course: R&D investments are amortized over a short period, and risk provisions are regularly updated, ensuring a true and fair view of the technological assets.",
         
@@ -406,7 +406,7 @@ const translations = {
         s11Title: "SWOT Analysis",
         labelS: "Strengths",
         s11S1: "**Exceptional financial stability**: 63% financial autonomy and a 3.3 liquidity ratio.",
-        s11S2: "**Cutting-edge technical expertise**: Mastery of AI (GRU, Function Calling) and Cloud-Native architectures.",
+        s11S2: "**Behavioral Intelligence**: Predictive recommendation engine capable of maximizing average basket size in real-time.",
         s11S3: "**Structured governance**: Strategic backing from TheClubDeal fund and an experienced management team.",
         s11S4: "**Talent engagement**: 2023 ESOP Plan promoting retention of key technical profiles.",
         
@@ -416,7 +416,7 @@ const translations = {
         s11W3: "**Brand awareness**: Lower visibility compared to global giants like Square or Lightspeed in the SME segment.",
         
         labelO: "Opportunities",
-        s11O1: "**R&D Monetization**: Imminent commercial launch of new predictive AI services.",
+        s11O1: "**AI Monetization**: Commercial launch of automated strategic data analysis services.",
         s11O2: "**Geographical expansion**: High deployment potential in European markets (France, Germany).",
         s11O3: "**Market consolidation**: Opportunity to become the leading aggregator in a fragmented POS market.",
         
