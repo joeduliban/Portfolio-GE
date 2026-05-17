@@ -41,7 +41,7 @@ const translations = {
         s1LinkMoniteur: "Publications au Moniteur Belge (CSA & ESOP 2023)",
         s1LinkBNB: "Consultation via la Banque Nationale de Belgique (BNB)",
         s1LinkRegistre: "Registre officiel (ejustice.just.fgov.be)",
-        s1Content: "LVLP SRL a été fondée en 2011 par Renaud Laloire, Catherine Collot et Francine Temmerman. Elle a choisi la forme de **SRL** pour les avantages enseignés en cours : protection du patrimoine privé, fiscalité optimisée et capacité à lever des fonds. En 2022, l'entrée du fonds **TheClubDeal** a porté le capital à plus de 2M€. En 2023, l'instauration du **Plan ESOP** (Employee Stock Option Plan) a marqué une innovation managériale majeure pour attirer et retenir les meilleurs talents IT dans un marché concurrentiel.",
+        s1Content: "LVLP SRL a été fondée en 2011 sous forme de **SPRL**, avant d'adopter le statut de **SRL** lors de la modernisation de ses statuts en 2022 (conforme au nouveau Code CSA). Ce choix stratégique permet de bénéficier des avantages enseignés en cours : protection du patrimoine privé des fondateurs, fiscalité des sociétés optimisée et flexibilité accrue pour les levées de fonds. Un tournant managérial a eu lieu en **2014** avec le passage à une gérance collective par les trois dirigeants actuels : **Renaud Laloire**, **Jonathan Van Lierde** et **Martin Polet**. En 2022, l'entrée du fonds **TheClubDeal** a porté le capital à plus de 2M€, consolidant la structure pour sa croissance européenne.",
 
         // Titres des Sections
         s2Title: "Comptes annuels (format BNB)",
@@ -116,7 +116,7 @@ const translations = {
         labelActivities: "Activités clés",
         s5Activities: "Développement continu du Middleware, Maintenance de l'infrastructure Cloud (High Availability), R&D en IA décisionnelle, Support client B2B expert.",
         labelResources: "Ressources clés",
-        s5Resources: "Capital humain hautement qualifié (Ingénieurs Cloud/IA), Propriété intellectuelle (Code source propriétaire), Soutien financier de 'TheClubDeal', Infrastructure Cloud évolutive.",
+        s5Resources: "Capital humain hautement qualifié (Ingénieurs Cloud/IA), Direction expérimentée (trio en place depuis **2014**), Propriété intellectuelle (Code source propriétaire), Soutien financier de 'TheClubDeal'.",
         labelValueProp: "Proposition de Valeur",
         s5ValueProp: "Unification omnicanale sans changement de hardware, centralisation des données de vente, réduction drastique des erreurs opérationnelles, futur analytique via IA.",
         labelRelationships: "Relations Clients",
@@ -206,7 +206,7 @@ const translations = {
         labelS: "Forces (Strengths)",
         s11S1: "**Solidité financière exceptionnelle** : Autonomie financière de 63% et ratio de liquidité de 3,3.",
         s11S2: "**Intelligence Comportementale** : Moteur de recommandation prédictif capable de maximiser le panier moyen en temps réel.",
-        s11S3: "**Gouvernance structurée** : Soutien stratégique du fonds TheClubDeal et équipe de management expérimentée.",
+        s11S3: "**Gouvernance structurée** : Soutien stratégique du fonds TheClubDeal et équipe de management expérimentée (trio aux commandes depuis **2014**).",
         s11S4: "**Engagement des talents** : Plan ESOP 2023 favorisant la rétention des profils techniques clés.",
         
         labelW: "Faiblesses (Weaknesses)",
@@ -262,7 +262,7 @@ const translations = {
         s1LinkMoniteur: "Publications in the Belgian Official Gazette (2023 update)",
         s1LinkBNB: "Consultation via the National Bank of Belgium (BNB)",
         s1LinkRegistre: "Official Register (ejustice.just.fgov.be)",
-        s1Content: "LVLP SRL was founded in 2011 by Renaud Laloire, Catherine Collot, and Francine Temmerman. It chose the **SRL** legal form for the advantages taught in the course: private asset protection, optimized taxation, and the ability to raise funds. In 2022, the entry of **TheClubDeal** fund brought the capital to over €2M. In 2023, the implementation of the **ESOP Plan** (Employee Stock Option Plan) marked a major managerial innovation to attract and retain top IT talent in a competitive market.",
+        s1Content: "LVLP SRL was founded in 2011 as an **SPRL**, later adopting the **SRL** status during its 2022 bylaws modernization (aligning with the new CSA Code). This strategic choice provides the key advantages taught in the course: protection of the founders' private assets, optimized corporate taxation, and increased flexibility for fundraising. A managerial turning point occurred in **2014** with the transition to collective governance by the three current leaders: **Renaud Laloire**, **Jonathan Van Lierde**, and **Martin Polet**. In 2022, the entry of **TheClubDeal** fund brought the capital to over €2M, strengthening the structure for its European expansion.",
 
         // Section 2 : Annual Accounts (Focus Proof/Legal - DETAILED)
         s2Title: "Annual Accounts (BNB format)",
@@ -316,7 +316,7 @@ const translations = {
         labelActivities: "Key Activities",
         s5Activities: "Middleware development, Cloud infrastructure maintenance, AI R&D, expert B2B support.",
         labelResources: "Key Resources",
-        s5Resources: "High-tier talent (Cloud/AI engineers), Proprietary code, TheClubDeal financial backing.",
+        s5Resources: "High-tier talent (Cloud/AI engineers), Experienced management (trio in place since **2014**), Proprietary code, TheClubDeal financial backing.",
         labelValueProp: "Value Proposition",
         s5ValueProp: "Omnichannel unification without hardware replacement, data centralization, future-proof AI analytics.",
         labelCustomers: "Customer Segments",
@@ -407,7 +407,7 @@ const translations = {
         labelS: "Strengths",
         s11S1: "**Exceptional financial stability**: 63% financial autonomy and a 3.3 liquidity ratio.",
         s11S2: "**Behavioral Intelligence**: Predictive recommendation engine capable of maximizing average basket size in real-time.",
-        s11S3: "**Structured governance**: Strategic backing from TheClubDeal fund and an experienced management team.",
+        s11S3: "**Structured governance**: Strategic backing from TheClubDeal fund and an experienced management team (trio leading since **2014**).",
         s11S4: "**Talent engagement**: 2023 ESOP Plan promoting retention of key technical profiles.",
         
         labelW: "Weaknesses",
