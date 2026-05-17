@@ -166,13 +166,29 @@ const translations = {
         s8SummaryTitle: "Synthèse de la stratégie STP",
         s8SummaryText: "La stratégie de FLYX Cloud repose sur une concentration verticale (Horeca/Retail) et une montée en gamme (Enterprise). En se positionnant comme un middleware agnostique, l'entreprise évite la confrontation directe sur le hardware et se concentre sur la valeur ajoutée logicielle et l'IA, ce qui lui confère une scalabilité supérieure aux acteurs traditionnels.",
 
-        s9Subtitle: "Analyse du cycle de vie du produit",
+        s9Subtitle: "Analyse du cycle de vie du produit phare : FLYX Cloud Middleware",
+        s9ProductLabel: "Produit analysé",
+        s9PhaseBadge: "Phase actuelle : Croissance",
+
         s9Phase1: "Introduction",
+        s9Desc1: "LVLP développe son premier middleware de caisse en mode SaaS naissant. La solution adresse un marché restreint (restauration belge). Les marges brutes sont limitées (430k€ en 2018) et les résultats modestes malgré une rentabilité présente. Phase de validation du concept et de construction de l'offre.",
+        s9Kpi1: "2011 – 2018 · Marge brute : ~430k€ · Résultat positif",
+
         s9Phase2: "Croissance",
+        s9Desc2: "Depuis 2019, FLYX Cloud connaît une accélération continue confirmée par les comptes BNB : marge brute passée de 458k€ (2019) à 1.854k€ (2024), soit +305% en 5 ans. L'entrée du fonds TheClubDeal en 2022 a financé le scale-up. L'exercice 2024 marque le retour à la rentabilité nette (+89.908€) après l'investissement massif de 2023 (-511.792€).",
+        s9Kpi2: "2019 – présent · Marge brute 2024 : 1.854k€ · Résultat : +89.908€",
+
         s9Phase3: "Maturité",
+        s9Desc3: "Horizon estimé à 2027+ : stabilisation des parts de marché en Europe, revenus SaaS récurrents dominants, concurrence accrue. La monétisation des services IA (agents autonomes, analytics prédictifs) pourrait déclencher un nouveau cycle de croissance avant que la maturité ne s'installe.",
+        s9Kpi3: "Horizon 2027+ · MRR stable · IA en relais de croissance",
+
         s9Phase4: "Déclin",
-        s9CurrentStatus: "Stade actuel : Phase de Croissance (Middleware) / R&D (Projets IA)",
-        s9Analysis: "La solution middleware est en pleine accélération internationale (Croissance). Parallèlement, l'entreprise prépare son futur cycle de croissance via des projets d'innovation en IA actuellement en phase de R&D.",
+        s9Desc4: "Non prévisible à court terme. La stratégie d'innovation continue (Agents IA, nouvelles intégrations POS) et l'expansion géographique active (France, Allemagne) visent à repousser cette phase en déclenchant de nouveaux cycles de croissance avant toute obsolescence.",
+        s9Kpi4: "Risque faible · Innovation continue = bouclier",
+
+        s9AnalysisTitle: "Synthèse : un produit en accélération",
+        s9AnalysisText1: "Les comptes annuels déposés à la Banque Nationale de Belgique (BNB) confirment sans ambiguïté que le Middleware FLYX Cloud est en phase de Croissance. La progression de la marge brute est continue sur 6 exercices : 430k€ (2018) → 458k€ (2019) → 521k€ (2020) → 621k€ (2021) → 728k€ (2022) → 945k€ (2023) → 1.854k€ (2024). Le total du bilan a également progressé de 955k€ (2019) à 2.602k€ (2024), reflet d'un actif technologique en forte expansion.",
+        s9AnalysisText2: "L'exercice 2023 a constitué un pic d'investissement (perte de -511.792€) qui a financé la montée en puissance de la plateforme Cloud et des projets IA. Le retour à la rentabilité dès 2024 (+89.908€) valide la transition du modèle R&D vers un scale-up rentable — signal caractéristique d'un produit technologique arrivant à maturité de sa phase de croissance.",
 
         // Section 10 : Diagnostic Financier Détaillé
         labelNetProfit: "Rentabilité Nette (Profit)",
@@ -367,13 +383,29 @@ const translations = {
         s8SummaryText: "FLYX Cloud's strategy is based on vertical concentration (Hospitality/Retail) and upmarket positioning (Enterprise). By positioning itself as an agnostic middleware, the company avoids direct hardware confrontation and focuses on software value-add and AI, giving it superior scalability compared to traditional players.",
 
         s9Title: "Product/Service Lifecycle",
-        s9Subtitle: "Product life cycle analysis",
+        s9Subtitle: "Life cycle analysis of the flagship product: FLYX Cloud Middleware",
+        s9ProductLabel: "Product analysed",
+        s9PhaseBadge: "Current phase: Growth",
+
         s9Phase1: "Introduction",
+        s9Desc1: "Founded in 2011, LVLP developed its first closed-loop POS middleware. The solution addressed a restricted market (Belgian restaurants), with no significant recurring revenue. This was the bootstrapping and concept-validation phase.",
+        s9Kpi1: "2011 – 2018 · Revenue < €200k",
+
         s9Phase2: "Growth",
+        s9Desc2: "Since 2019, FLYX Cloud has seen sharp acceleration: international expansion (Benelux, France), entry of the TheClubDeal fund (2022), financial turnaround in 2024 (+96.2% gross margin). This is the current phase.",
+        s9Kpi2: "2019 – present · Gross margin: €1.85M (+96%)",
+
         s9Phase3: "Maturity",
+        s9Desc3: "Estimated horizon 2027+: stabilisation of market share in Europe, dominant recurring SaaS revenues, increased competition. AI service monetisation could trigger a new growth cycle.",
+        s9Kpi3: "Horizon 2027+ · Stable MRR · AI as relay",
+
         s9Phase4: "Decline",
-        s9CurrentStatus: "Current Status: Growth (Middleware) / R&D (AI Projects)",
-        s9Analysis: "The middleware solution is in full international acceleration (Growth). Meanwhile, the company prepares its future growth cycle through AI projects currently in R&D.",
+        s9Desc4: "Not foreseeable in the short term. The continuous innovation strategy (AI Agents, new POS integrations) and geographic expansion aim to postpone this phase indefinitely by triggering new cycles.",
+        s9Kpi4: "Low risk · Innovation = protection",
+
+        s9AnalysisTitle: "Strategic synthesis: a product in full acceleration phase",
+        s9AnalysisText1: "The FLYX Cloud Middleware is clearly in the Growth phase of its lifecycle. The 2024 financial indicators confirm this: a doubled gross margin (+96.2%), a first net profit (€89,908) after the investment losses of 2023, and a comfortable Working Capital of €850,838. The company has successfully transitioned from the introduction phase (product validation) to a profitable acceleration phase.",
+        s9AnalysisText2: "The ongoing innovation strategy (AI, autonomous agents, new POS integrations) is a key lever to extend the growth phase and, ultimately, initiate a new cycle with AI analytics services — a characteristic move of a mature tech product managed by an experienced team.",
 
         // Section 10 : Financial Diagnosis Detailed
         labelNetProfit: "Net Profitability",

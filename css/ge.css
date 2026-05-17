@@ -728,3 +728,158 @@
     font-size: 0.9em;
 }
 .active .point-label { color: #3b82f6; }
+
+/* ---- Cycle de Vie (refonte) ---- */
+.lcv-product-badge {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.lcv-product-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    background: #dbeafe;
+    color: #2563eb;
+    flex-shrink: 0;
+}
+
+.lcv-product-label {
+    font-size: 0.78em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #94a3b8;
+    margin-bottom: 4px;
+}
+
+.lcv-product-name {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+.lcv-phase-badge {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #1d4ed8;
+}
+
+.lcv-phase-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #3b82f6;
+    animation: pulse-animation 2s infinite;
+}
+
+.lcv-chart-wrapper {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px 15px 10px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.lcv-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lcv-phases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 0;
+}
+
+.lcv-phase-card {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    background: white;
+    transition: transform 0.2s ease;
+    border-top: 4px solid;
+}
+
+.lcv-phase-card:hover { transform: translateY(-4px); }
+
+.lcv-phase-card p {
+    font-size: 0.88em;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0 0 12px;
+}
+
+.lcv-phase-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.lcv-phase-num {
+    font-size: 0.7em;
+    font-weight: 800;
+    padding: 2px 8px;
+    border-radius: 6px;
+    letter-spacing: 0.05em;
+}
+
+.lcv-phase-card h4 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+.lcv-phase-kpi {
+    font-size: 0.78em;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: auto;
+}
+
+.lcv-intro { border-top-color: #94a3b8; }
+.lcv-intro .lcv-phase-num { background: #f1f5f9; color: #64748b; }
+.lcv-intro .lcv-phase-kpi { background: #f1f5f9; color: #475569; }
+
+.lcv-growth { border-top-color: #3b82f6; }
+.lcv-growth .lcv-phase-num { background: #dbeafe; color: #1d4ed8; }
+.lcv-growth .lcv-phase-kpi { background: #dbeafe; color: #1d4ed8; }
+
+.lcv-active-phase {
+    background: #f0f7ff;
+    border-color: #bfdbfe;
+    box-shadow: 0 4px 15px rgba(59,130,246,0.15);
+}
+
+.lcv-maturity { border-top-color: #10b981; }
+.lcv-maturity .lcv-phase-num { background: #d1fae5; color: #065f46; }
+.lcv-maturity .lcv-phase-kpi { background: #d1fae5; color: #065f46; }
+
+.lcv-decline { border-top-color: #f87171; }
+.lcv-decline .lcv-phase-num { background: #fee2e2; color: #b91c1c; }
+.lcv-decline .lcv-phase-kpi { background: #fee2e2; color: #b91c1c; }
